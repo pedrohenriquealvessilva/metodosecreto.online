@@ -1,113 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Robin Hood Cassino</title>
+  <title>PAQUETES - LAURA SANCHEZ</title>
   <style>
     body {
-      background-color: black;
-      color: #FFFFFF;
+      background-color: #252c4a;
       font-family: Arial, sans-serif;
     }
 
-    header {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
       text-align: center;
       padding: 20px;
     }
 
-    main {
-      text-align: center;
-      padding: 20px;
-    }
-
-    #video-container {
+    .product-image {
+      max-width: 400px;
       margin-bottom: 20px;
-      position: relative;
-      padding-bottom: 56.25%;
-      height: 0;
-      overflow: hidden;
     }
 
-    #video-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-
-    #my-button {
-      display: none;
-      padding: 20px 40px;
+    h2 {
       font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .buy-button {
+      padding: 15px 40px;
+      font-size: 18px;
       border: none;
-      border-radius: 10px;
-      background-color: #23B230;
-      color: black;
-      cursor: pointer;
+      border-radius: 50px;
+      background-color: #00aaff;
+      color: #ffffff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
       transition: background-color 0.3s ease;
     }
 
-    #my-button:hover {
-      background-color: #0ADF13;
-      color: white;
+    .buy-button:hover {
+      background-color: #0077cc;
     }
 
-    .responsive-image {
-      width: 100%;
-      height: auto;
+    .buy-button:focus {
+      outline: none;
+    }
+
+    .image-wrapper {
+      border: 2px solid #00aaff;
+      margin: 10px;
+      padding: 10px;
+      display: inline-block;
+    }
+
+    .image-wrapper img {
+      max-width: 200px;
+    }
+
+    .blink-animation {
+      animation: blink 1.5s infinite;
+    }
+
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="https://i.ibb.co/LSjbC8Y/ultrasecreto4-1.png" alt="Imagem de Destaque" class="responsive-image">
-  </header>
+  <div class="container">
+    <img class="product-image" src="https://i.ibb.co/vwr20pM/0102.png" alt="Imagem do Produto">
 
-  <main>
-    <div id="video-container">
-      <div id="vid_647538bdf218ab00097d0f4e" style="position:relative;width:100%;padding: 56.25% 0 0;">
-        <img id="thumb_647538bdf218ab00097d0f4e" src="https://images.converteai.net/61acffd3-7333-4a96-a6e0-87d6857ebe39/players/647538bdf218ab00097d0f4e/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
-        <div id="backdrop_647538bdf218ab00097d0f4e" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div>
-      </div>
-      <script type="text/javascript" id="scr_647538bdf218ab00097d0f4e">var s=document.createElement("script");s.src="https://scripts.converteai.net/61acffd3-7333-4a96-a6e0-87d6857ebe39/players/647538bdf218ab00097d0f4e/player.js",s.async=!0,document.head.appendChild(s);</script>
+    <div>
+      <h2>PAQUETE DE PRUEBA</h2>
+      <a href="https://pay.hotmart.com/X72568740B?off=etff7jgf"><button class="buy-button" type="button">COMPRAR AHORA</button></a>
     </div>
 
-    <center>
-      <button id="my-button" onclick="window.location.href='https://go.perfectpay.com.br/PPU38CM59BD'">QUERO ACESSO AO APP 🔥</button>
-    </center>
-  </main>
+    <div>
+      <h2>PAQUETE DE ORO</h2>
+      <a href="https://pay.hotmart.com/X72568740B?off=iz83e074"><button class="buy-button" type="button">COMPRAR AHORA</button></a>
+    </div>
 
-  <center>
-    <footer>
-      <section>
-        <h6>
-          Robin Hood Cassino - Copyright 2023 ©<br><br>
-          Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. Depois que você sair do Facebook, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar claramente e mostrar todas as provas do produto e usamos resultados reais. Nós não vendemos o seu e-mail ou qualquer informação para terceiros. Jamais fazemos nenhum tipo de spam.
-          <br>
-          Qualquer outro site onde você encontre este programa é uma FALSIFICAÇÃO e vai contra as leis.<br>
-          Evite falsificações e recuse conteúdos ilegais ou pirateados.<br>
-        </h6>
-      </section>
-    </footer>
-  </center>
+    <div>
+      <h2>PAQUETE DE FUEGO</h2>
+      <a href="https://pay.hotmart.com/X72568740B?off=ue262dve"><button class="buy-button blink-animation" type="button">COMPRAR AHORA</button></a>
+    </div>
 
-  <script>
-    // Defina o tempo em minutos para o botão aparecer
-    const tempoExibicao = 5; // Altere o valor conforme necessário
+    <div>
+      <h2>PAQUETE VIP</h2>
+      <a href="https://pay.hotmart.com/X72568740B?off=ncncl1d9"><button class="buy-button" type="button">COMPRAR AHORA</button></a>
+    </div>
+<br><br>
+    <div class="image-wrapper">
+      <a href=""><img src="https://i.ibb.co/Tbb9FKH/1.png" alt="Imagem 1"></a>
+    </div>
 
-    // Função para exibir o botão após um determinado tempo
-    function exibirBotao() {
-      const button = document.getElementById('my-button');
-      button.style.display = 'block';
-    }
+    <div class="image-wrapper">
+      <a href=""><img src="https://i.ibb.co/sWVS43f/2.png" alt="Imagem 2"></a>
+    </div>
 
-    // Conversão de minutos para milissegundos
-    const tempoEmMilissegundos = (tempoExibicao * 60 * 1000) + 10000;
+    <div class="image-wrapper">
+      <a href=""><img src="https://i.ibb.co/X4wbv9c/3.png" alt="Imagem 3"></a>
+    </div>
 
-    // Definir o temporizador para exibir o botão
-    setTimeout(exibirBotao, tempoEmMilissegundos);
-  </script>
+    <div class="image-wrapper">
+      <a href=""><img src="https://i.ibb.co/CH3YTrW/4.png" alt="Imagem 4"></a>
+    </div>
+  </div>
 </body>
 </html>
