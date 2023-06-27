@@ -6,6 +6,8 @@
     body {
       background-color: #252c4a;
       font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
     }
 
     .container {
@@ -16,10 +18,11 @@
       color: #ffffff;
       text-align: center;
       padding: 20px;
+      box-sizing: border-box;
     }
 
     .product-image {
-      max-width: 400px;
+      max-width: 100%;
       margin-bottom: 20px;
     }
 
@@ -38,6 +41,10 @@
       text-transform: uppercase;
       letter-spacing: 2px;
       transition: background-color 0.3s ease;
+      display: inline-block;
+      margin-top: 10px;
+      width: 100%;
+      max-width: 300px;
     }
 
     .buy-button:hover {
@@ -56,7 +63,7 @@
     }
 
     .image-wrapper img {
-      max-width: 200px;
+      max-width: 100%;
     }
 
     .blink-animation {
@@ -75,25 +82,25 @@
     <img class="product-image" src="https://i.ibb.co/vwr20pM/0102.png" alt="Imagem do Produto">
 
     <div>
-      <h2>PAQUETE DE PRUEBA</h2>
+      <h2 style="font-size: 32px; margin-bottom: 20px;">PAQUETE DE PRUEBA</h2>
       <a href="https://pay.hotmart.com/X72568740B?off=etff7jgf"><button class="buy-button" type="button">COMPRAR AHORA</button></a>
     </div>
 
     <div>
-      <h2>PAQUETE DE ORO</h2>
+      <h2 style="font-size: 32px; margin-bottom: 20px;">PAQUETE DE ORO</h2>
       <a href="https://pay.hotmart.com/X72568740B?off=iz83e074"><button class="buy-button" type="button">COMPRAR AHORA</button></a>
     </div>
 
     <div>
-      <h2>PAQUETE DE FUEGO</h2>
+      <h2 style="font-size: 32px; margin-bottom: 20px;">PAQUETE DE FUEGO</h2>
       <a href="https://pay.hotmart.com/X72568740B?off=ue262dve"><button class="buy-button blink-animation" type="button">COMPRAR AHORA</button></a>
     </div>
 
     <div>
-      <h2>PAQUETE VIP</h2>
+      <h2 style="font-size: 32px; margin-bottom: 20px;">PAQUETE VIP</h2>
       <a href="https://pay.hotmart.com/X72568740B?off=ncncl1d9"><button class="buy-button" type="button">COMPRAR AHORA</button></a>
     </div>
-<br><br>
+    <br><br>
     <div class="image-wrapper">
       <a href=""><img src="https://i.ibb.co/Tbb9FKH/1.png" alt="Imagem 1"></a>
     </div>
