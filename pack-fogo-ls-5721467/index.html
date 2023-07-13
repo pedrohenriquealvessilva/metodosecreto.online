@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LAURA PEREIRA SANCHEZ</title>
+    <style>
+        
+    @media (max-width: 767px) {
+        .btn {
+            width: 100%;
+        }
+    }
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 48px;
+            margin-top: 150px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 20px 120px;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .btn:hover {
+            background-color: darkred;
+        }
+    </style>
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '3612358255659958');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=3612358255659958&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    <script>
+        var eventTracked = false;
+        
+        function trackPurchase() {
+            if (!eventTracked) {
+                fbq('track', 'Purchase', { value: 60, currency: 'BRL' });
+                eventTracked = true;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>PACOTE FOGO - Laura Pereira Sanchez</h1>
+    <a href="https://drive.google.com/drive/folders/1ZUxVaS_6pE2IZnxw7ynhRN3SyX2IZAYj?usp=drive_link" onclick="trackPurchase();">
+        <button class="btn">CLIQUE AQUI PARA ACESSAR</button>
+</body>
+</html>
